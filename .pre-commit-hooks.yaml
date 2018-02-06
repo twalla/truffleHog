@@ -1,0 +1,10 @@
+---
+
+# For use with pre-commit.
+# See usage instructions at http://pre-commit.com
+
+-   id: truffleHog
+    name: truffleHog
+    description: This hook runs truffleHog.
+    entry: truffleHog
+    language: python
